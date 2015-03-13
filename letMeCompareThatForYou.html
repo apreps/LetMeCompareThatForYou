@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Let me compare that for you !</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:700|Amatic+SC:700" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>Let me compare that for you !</header>
+    <div id="content">
+        <div id="leftside">
+            <input id="availableNumbers" class="verticallyCentered textbox" type="text" placeholder="Available  Numbers"> 
+        </div>
+
+        <div id="newLeftside">
+            <p id="stringMatchedNumbers"></p>
+        </div>
+
+        <div id="rightside">
+            <input id="missingNumbers" class="verticallyCentered textbox" type="text" placeholder="Missing  Numbers">
+        </div>
+    </div>
+
+    <div id="buttonContainer">
+        <button type="button" id="compareButton">Compare</button>
+        <button type="button" id="newSearch">New Search</button>
+    </div>
+
+    <script src="background.js"></script>
+    <script src="jquery.js"></script>
+
+</body>
+</html>

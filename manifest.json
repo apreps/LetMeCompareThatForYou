@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Let me compare that for you !",
+  "description": "This extension helps you easily identify common numbers between to lists of numbers. Useful for collectors.",
+  "version": "1.0",
+
+"background": {
+    "page": "letMeCompareThatForYou.html"
+  },
+  
+  "browser_action": {
+    "default_icon": "LetMeCompareThatForYouSmall.png"
+  },
+
+  "icons": { "16": "LetMeCompareThatForYouIcon.png",
+           "48": "LetMeCompareThatForYouIcon.png",
+          "128": "LetMeCompareThatForYouIcon.png" }
+}
